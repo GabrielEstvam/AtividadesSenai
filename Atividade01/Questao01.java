@@ -33,5 +33,6 @@ public class Questao01
             System.out.println("Reprovado");
         }
         System.out.println("##############################");
+        ler.close();
     }
 }

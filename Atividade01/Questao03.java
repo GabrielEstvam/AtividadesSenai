@@ -17,5 +17,6 @@ public class Questao03
         nome = in.nextLine();
         System.out.println("Olá "+ nome);
         System.out.println("##############################");
+        in.close();
     }
 }

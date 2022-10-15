@@ -17,5 +17,6 @@ public class Questao02
         numero = in.nextInt();
         System.out.println("Os vizinhos do número " + numero+ " são "+(numero-1)+ " e "+ (numero+1));
         System.out.println("##############################");
+        in.close();
     }
 }

@@ -25,5 +25,6 @@ public class Questao04
     System.out.println("O funcionario "+nome+" deve receber: R$"+salario);
 
     System.out.println("##############################"); 
+    in.close();
    } 
 }

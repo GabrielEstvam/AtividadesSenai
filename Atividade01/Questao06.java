@@ -22,5 +22,6 @@ public class Questao06
         valorParte = valorConta/quantidadePessoas;
         System.out.println("O valor da conta(R$"+valorConta+") para cada parte ("+quantidadePessoas+") é :R$ "+valorParte);
         System.out.println("##############################");
+        in.close();
     }
 }

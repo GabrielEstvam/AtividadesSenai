@@ -21,5 +21,6 @@ public class Questao05
         System.out.println(10/100);
         System.out.println("Valor conta: "+valorConta+" + 10% = "+ taxaGarcom);
         System.out.println("##############################");
+        in.close();
     }
 }
