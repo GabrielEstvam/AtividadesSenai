@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class Questao05
 {
-    public static void main(String[] args) 
+    public static void m11ain(String[] args) 
     {
         double valorConta, taxaGarcom;
         Scanner in = new Scanner(System.in);
