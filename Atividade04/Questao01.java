@@ -67,6 +67,7 @@ public class Questao01
                 {
                     opcaoAlterar[i] = lista.get(i);
                 }
+                
                 Object itemSelecionado = JOptionPane.showInputDialog(
                         null,
                         "Selecione o item para alterar",
@@ -80,13 +81,16 @@ public class Questao01
                 {
                     if (itemSelecionado.toString().equals(lista.get(i))) 
                     {
-                        String item = JOptionPane.showInputDialog("Digite o novo item");
+                        String item = JOptionPane.showInputDialog("Digite o novo item", lista.get(i));
                         lista.set(i, item);
                         
                     }
                 }
             }
-        } while (selecionado != 4);
+        } while (selecionado == -1);
 
+    }
+
+    private static void showInputDialog(String string, String string2) {
     }
 }
